@@ -21,7 +21,7 @@ Mobile.startApplication('C:\\Users\\user\\Downloads\\newAPK (1).apk', true)
 
 WebUI.callTestCase(findTestCase('Others and Knowledgebase/Quick walkthrough'), [:], FailureHandling.STOP_ON_FAILURE)
 
-///test
+////test
 Mobile.tap(findTestObject('Object Repository/Daily Recommend/Daily recommend'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Daily Recommend/android.widget.TextView - Sign In'), 0)
