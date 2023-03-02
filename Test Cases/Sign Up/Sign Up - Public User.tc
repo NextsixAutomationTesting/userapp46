@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Sign Up - Public User</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1b758f1a-9265-46f4-88bc-8cc335943498</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a02360fe-4b92-4910-8d8c-b96b023260d1</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3d931daa-848f-40a6-8c53-9335b10307fe</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4ff1e8a2-ab5c-4aa8-b76d-2e1fde6671b2</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a02360fe-4b92-4910-8d8c-b96b023260d1</id>
+      <masked>false</masked>
+      <name>randommail</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3d931daa-848f-40a6-8c53-9335b10307fe</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4ff1e8a2-ab5c-4aa8-b76d-2e1fde6671b2</id>
+      <masked>false</masked>
+      <name>otplatest</name>
+   </variable>
+</TestCaseEntity>

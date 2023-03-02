@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>11</name>
+   <tag></tag>
+   <elementGuidId>d5e5b29a-3474-45d0-a89f-360e0018355b</elementGuidId>
+   <imagePath></imagePath>
+   <selectorCollection>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li.ListingsListstyle__ListingListItemWrapper-bmHwPm.lfznXs.sale-104007737 > div > div.PremiumCardstyle__CardWrapper-cvkMVX.jRRXhG > div.PremiumCardstyle__DescriptionWrapper-fIqxyF.bgYgqk.Premium > div.detail-property > div.datail-title-attributes > h2.PremiumCardstyle__TitleWrapper-cBmVrL.ePWFgo</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//li[11]/div/div/div[3]/div[2]/div/h2</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div[3]/div/ul/li[2]/div/div/div[3]/div[2]/div/h2</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h2</value>
+      <webElementGuid>92d46f6a-99fe-4a50-ab94-aa2377f485a3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>PremiumCardstyle__TitleWrapper-cBmVrL ePWFgo</value>
+      <webElementGuid>b084454f-8c72-4c6b-a030-abc37791fdaa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Arte Condominium, Kuchai Lama</value>
+      <webElementGuid>2e0f202b-2a34-4984-b780-803ca8a74e97</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//li[11]/div/div/div[3]/div[2]/div/h2</value>
+      <webElementGuid>0a06ab7a-db40-4442-acf4-b674bc4f873c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div[3]/div/ul/li[2]/div/div/div[3]/div[2]/div/h2</value>
+      <webElementGuid>12e831c6-60dc-4d7c-bc06-3e38bb7b1346</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='RM 850,000'])[1]/following::h2[1]</value>
+      <webElementGuid>94e32d70-197c-4551-9808-df8761daefbf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Grace Yong'])[1]/following::h2[1]</value>
+      <webElementGuid>83c33129-b5a4-4b8f-88ae-087349b0f625</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kuchai Lama, Kuala Lumpur'])[2]/preceding::h2[1]</value>
+      <webElementGuid>1f600115-aca4-4ea5-be77-1a6e8b574c13</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Save'])[2]/preceding::h2[1]</value>
+      <webElementGuid>7764afca-911b-4c42-ba2f-e21230f648b9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Arte Condominium, Kuchai Lama']/parent::*</value>
+      <webElementGuid>0b160917-d910-448c-9016-ea7734906e91</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[3]/div/div/div[3]/div[2]/div/h2</value>
+      <webElementGuid>49e7124c-7a12-4261-b33e-80ae577f35af</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h2[(text() = 'Arte Condominium, Kuchai Lama' or . = 'Arte Condominium, Kuchai Lama')]</value>
+      <webElementGuid>a90308ad-357a-4e2d-90ef-a960fb10bf18</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

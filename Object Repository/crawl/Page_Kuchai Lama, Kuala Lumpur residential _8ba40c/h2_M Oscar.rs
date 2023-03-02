@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h2_M Oscar</name>
+   <tag></tag>
+   <elementGuidId>9c5ea7a5-d1a9-45de-923c-1daa0f7930e3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h2.PremiumCardstyle__TitleWrapper-cBmVrL.lfKjpe</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//li[4]/div/div/div[3]/div[2]/div/h2[count(. | //h2[@class = 'PremiumCardstyle__TitleWrapper-cBmVrL lfKjpe']) = count(//h2[@class = 'PremiumCardstyle__TitleWrapper-cBmVrL lfKjpe'])]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div[3]/div/ul/li[4]/div/div/div[3]/div[2]/div/h2</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h2</value>
+      <webElementGuid>9c5cbb64-b797-4bd4-be5b-5baa74bd779d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>PremiumCardstyle__TitleWrapper-cBmVrL lfKjpe</value>
+      <webElementGuid>e29a069a-d76d-49d2-bf81-3f9ca57b4179</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>M Oscar</value>
+      <webElementGuid>5a3d8e41-8f2a-4fc7-ac76-f6fe330d7e3a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//li[4]/div/div/div[3]/div[2]/div/h2</value>
+      <webElementGuid>62d93f88-1415-4f8f-8bbf-860ff3ee8a57</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div[3]/div/ul/li[4]/div/div/div[3]/div[2]/div/h2</value>
+      <webElementGuid>6eb25ec5-fe99-4929-9973-4699eb26c45c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Next to Happy Garden &amp; Sri Petaling. Easily accessible to PJ, KL, Subang and Cheras area'])[1]/following::h2[1]</value>
+      <webElementGuid>d7401d30-b392-40d2-9872-c0b478b78cc3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='From RM 499,000'])[1]/following::h2[1]</value>
+      <webElementGuid>fdaf722f-e125-47d0-9daf-6e7c0cae1c48</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kuchai Lama, Kuala Lumpur'])[4]/preceding::h2[1]</value>
+      <webElementGuid>1f0ffae9-df13-4ec3-a1e6-dcd7dbbf96e9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Save'])[4]/preceding::h2[1]</value>
+      <webElementGuid>40a88e98-1ce9-4d1d-bb71-cdd23e75f007</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='M Oscar']/parent::*</value>
+      <webElementGuid>f04feb6a-6fc9-4e0a-aaf4-9a25b18b9589</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[4]/div/div/div[3]/div[2]/div/h2</value>
+      <webElementGuid>5c7d351f-c7c8-4be0-93a4-85a8bbbcd013</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h2[(text() = 'M Oscar' or . = 'M Oscar')]</value>
+      <webElementGuid>6cb0bf65-c0e4-4ac1-bd12-bf164cda8dda</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
