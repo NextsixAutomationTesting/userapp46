@@ -34,7 +34,7 @@ Mobile.tap(findTestObject('Object Repository/Daily Recommend/android.widget.Text
 
 Mobile.tap(findTestObject('Object Repository/Daily Recommend/Daily recommend'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Daily Recommend/Tenant'), 0)
+Mobile.tap(findTestObject('Daily Recommend/Buyer'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Daily Recommend/android.widget.TextView - Next'), 0)
 
@@ -95,9 +95,8 @@ for (int i = 0; i < 5; i++) {
     
     println(monthlyRental)
 }
+
 //Mobile.tap(findTestObject('Object Repository/Daily Recommend/android.widget.TextView -'), 0)
-
-
 Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.swipe(400, 100, 400, 900)
@@ -108,10 +107,16 @@ GETPNNOTI = Mobile.getText(findTestObject('Object Repository/Daily Recommend/and
 long endTime = System.currentTimeMillis()
 
 long totalTime = endTime - startTime
+
 Mobile.swipe(400, 800, 400, 200)
+
 Mobile.tap(findTestObject('Object Repository/Daily Recommend/android.widget.TextView -'), 0)
+
 Mobile.tap(findTestObject('Daily Recommend/android.widget.TextView - Exit'), 0)
+
 println(('Time taken to appear: ' + (totalTime / 1000)) + ' seconds')
+
 Mobile.swipe(400, 800, 400, 200)
+
 Mobile.closeApplication()
 

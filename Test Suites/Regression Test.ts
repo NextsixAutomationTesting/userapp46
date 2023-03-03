@@ -106,6 +106,13 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
+      <guid>464b030f-c497-42b9-a760-26c2735f84a9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Daily Recommends/User select tenant</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
       <guid>8c95fc6b-7fff-4039-95af-1d1a61be8013</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
