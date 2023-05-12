@@ -23,7 +23,7 @@ Mobile.startApplication(GlobalVariable.UserappAPK, true)
 Mobile.tap(findTestObject('Object Repository/mobile/android.widget.TextView - Lets Get Started'), 0)
 
 Mobile.tap(findTestObject('Object Repository/mobile/android.widget.TextView - Skip'), 0)
-		
+
 Mobile.tap(findTestObject('mobile/Profile 2'), 0)
 
 Mobile.tap(findTestObject('Object Repository/mobile/android.widget.TextView - Create Account'), 0)
@@ -83,6 +83,8 @@ Mobile.tap(findTestObject('mobile/android.widget.TextView - Next (1)'), 0)
 Mobile.tap(findTestObject('Object Repository/mobile/android.view.ViewGroup'), 0)
 
 Mobile.tap(findTestObject('Object Repository/mobile/android.widget.TextView - Submit (2)'), 0)
+
+Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Object Repository/mobile/android.widget.ImageView (7)'), 0)
 

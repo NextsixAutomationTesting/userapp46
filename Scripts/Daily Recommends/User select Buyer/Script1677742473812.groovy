@@ -104,6 +104,8 @@ Mobile.swipe(400, 100, 400, 900)
 GETPNNOTI = Mobile.getText(findTestObject('Object Repository/Daily Recommend/android.widget.TextView - Weve found you more properties you might be interested in (2)'), 
     300000)
 
+println GETPNNOTI
+
 long endTime = System.currentTimeMillis()
 
 long totalTime = endTime - startTime

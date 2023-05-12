@@ -63,25 +63,24 @@ Mobile.tap(findTestObject('Object Repository/mobile/Property search by area/andr
 WebUI.delay(2)
 
 Mobile.tap(findTestObject('Object Repository/mobile/Property search by area/android.view.View'), 0)
-
-Mobile.verifyElementText(findTestObject('Object Repository/mobile/Property search by area/android.widget.TextView - 7 Properties in kuchai East'), 
-    '7 Properties in kuchai East')
+println TOTALPROPERTY + 'Properties in kuchai East'
+Mobile.verifyElementText(findTestObject('mobile/Property search by area/android.widget.TextView - 7 Properties in kuchai East', 
+        [('TOTALPROPERTY') : TOTALPROPERTY]), TOTALPROPERTY + ' Properties in kuchai East')
 
 Mobile.verifyElementText(findTestObject('mobile/android.widget.TextView - kuchai ESSST', [('FIRTPROPERTY') : FIRTPROPERTY]), 
     FIRTPROPERTY)
 
-Mobile.swipe(835, 2023, 39, 2023)
-
-Mobile.swipe(835, 2023, 39, 2023)
-
-Mobile.swipe(835, 2023, 39, 2023)
-
-Mobile.swipe(835, 2023, 39, 2023)
+Mobile.swipe(835, 1900, 39, 1900)
+Mobile.swipe(835, 1900, 39, 1900)
+Mobile.swipe(835, 1900, 39, 1900)
+Mobile.swipe(835, 1900, 39, 1900)
+Mobile.swipe(835, 1900, 39, 1900)
+Mobile.swipe(835, 1900, 39, 1900)
 
 Mobile.verifyElementText(findTestObject('mobile/Property search by area/android.widget.TextView - Kuchai East 17 (Rent)', 
         [('LASTPROPERTY') : LASTPROPERTY]), LASTPROPERTY)
 
-Mobile.swipe(489, 1651, 489, 289)
+Mobile.swipe(500, 1651, 500, 289)
 
 Mobile.verifyElementText(findTestObject('mobile/Property search by area/android.widget.TextView - kuchai East (1)', [('FIRTPROPERTY') : FIRTPROPERTY]), 
     FIRTPROPERTY)
@@ -95,7 +94,7 @@ Mobile.swipe(51, 1651, 462, 289)
 Mobile.swipe(51, 1651, 462, 289)
 
 Mobile.swipe(51, 1651, 462, 289)
-
+Mobile.delay(1)
 Mobile.verifyElementText(findTestObject('mobile/Property search by area/android.widget.TextView - Kuchai East 17 (Rent) (1)', 
         [('LASTPROPERTY') : LASTPROPERTY]), LASTPROPERTY)
 

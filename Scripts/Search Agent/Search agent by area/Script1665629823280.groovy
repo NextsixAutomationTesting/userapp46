@@ -37,7 +37,7 @@ Mobile.tap(findTestObject('Object Repository/mobile/Agent profile/android.widget
     0)
 
 'Tap agent avatar on map'
-Mobile.tap(findTestObject('Object Repository/mobile/Agent profile/android.view.View'), 0)
+Mobile.tap(findTestObject('tap on avatar'), 0)
 
 Mobile.verifyElementText(findTestObject('Object Repository/mobile/Agent profile/android.widget.TextView - KLCC'), 'KLCC')
 
@@ -47,6 +47,8 @@ Mobile.verifyElementText(findTestObject('Object Repository/mobile/Agent profile/
 Mobile.verifyElementText(findTestObject('Object Repository/mobile/Agent profile/android.widget.TextView - Bangsar'), 'Bangsar')
 
 Mobile.verifyElementText(findTestObject('Object Repository/mobile/Agent profile/android.widget.TextView - rose'), 'rose ')
+
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.verifyElementText(findTestObject('mobile/Agent profile/android.widget.TextView - 017-8545177 5A Realty'), '017-8545177 | 5A Realty')
 

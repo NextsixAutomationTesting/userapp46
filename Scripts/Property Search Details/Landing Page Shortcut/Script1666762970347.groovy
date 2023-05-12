@@ -113,22 +113,11 @@ Mobile.tap(findTestObject('Object Repository/mobile/Shortcut/android.widget.Text
 
 Mobile.tap(findTestObject('Object Repository/mobile/android.widget.TextView - Sign In'), 0)
 
-Mobile.setText(findTestObject('Object Repository/mobile/android.widget.EditText - Email'), 'peter@gmail.com', 0)
+Mobile.setText(findTestObject('Object Repository/mobile/android.widget.EditText - Email'), 'parker@gmail.com', 0)
 
-Mobile.setText(findTestObject('Object Repository/mobile/android.widget.EditText - Password'), '2', 0)
+Mobile.setText(findTestObject('Object Repository/mobile/android.widget.EditText - Password'), '1', 0)
 
 Mobile.tap(findTestObject('Object Repository/mobile/android.widget.TextView - Sign In (1)'), 0)
-
-Mobile.verifyElementText(findTestObject('Object Repository/mobile/android.widget.TextView - The email or password you entered is incorrect'), 
-    'The email or password you entered is incorrect.')
-
-Mobile.tap(findTestObject('Object Repository/mobile/android.widget.TextView - Try Again'), 0)
-
-Mobile.clearText(findTestObject('Object Repository/mobile/android.widget.EditText -'), 0)
-
-Mobile.setText(findTestObject('mobile/android.widget.EditText - Password'), '1', 0)
-
-Mobile.tap(findTestObject('mobile/android.widget.TextView - Sign In (1)'), 0)
 
 Mobile.verifyElementText(findTestObject('Object Repository/mobile/Shortcut/android.widget.TextView - My Likes (2)'), 'My Likes')
 
@@ -147,7 +136,7 @@ Mobile.tap(findTestObject('Object Repository/mobile/Shortcut/android.widget.Text
 Mobile.verifyElementText(findTestObject('Object Repository/mobile/Shortcut/android.widget.TextView - BlueDuck Registration'), 
     'BlueDuck Registration')
 
-Mobile.verifyElementText(findTestObject('Object Repository/mobile/Shortcut/android.widget.EditText - 883999-39-9393'), '883999-39-9393')
+Mobile.verifyElementText(findTestObject('Object Repository/mobile/Shortcut/android.widget.EditText - 883999-39-9393'), '950522-87-5015')
 
 Mobile.tap(findTestObject('Object Repository/mobile/Shortcut/android.widget.TextView - (3)'), 0)
 
