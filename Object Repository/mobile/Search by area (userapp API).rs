@@ -10,7 +10,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot; {\n    \&quot;propertyListing\&quot;:\&quot;Subsale\&quot;,\n    \&quot;for\&quot;:\&quot;Rent\&quot;, \n    \&quot;area\&quot;:\&quot;Kuchai Lama\&quot;,\n    \&quot;state\&quot;:\&quot;Wilayah Persekutuan Kuala Lumpur\&quot;,\n    \&quot;categoryListing\&quot;:\&quot;Residential\&quot;,\n  \&quot;paging\&quot;:{ \&quot;page\&quot;:1,\n    \&quot;size\&quot;:100},\n  \&quot;sorting\&quot;:\&quot;sort1\&quot;\n  }&quot;,
+  &quot;text&quot;: &quot; {\n    \&quot;propertyListing\&quot;:\&quot;Subsale\&quot;,\n    \&quot;for\&quot;:\&quot;Rent\&quot;, \n    \&quot;area\&quot;:\&quot;Kuchai Lama\&quot;,\n    \&quot;state\&quot;:\&quot;Wilayah Persekutuan Kuala Lumpur\&quot;,\n    \&quot;categoryListing\&quot;:\&quot;Residential\&quot;,\n  \&quot;paging\&quot;:{ \&quot;page\&quot;:\&quot;\&quot;,\n    \&quot;size\&quot;:100},\n  \&quot;sorting\&quot;:\&quot;sort1\&quot;\n  }&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>

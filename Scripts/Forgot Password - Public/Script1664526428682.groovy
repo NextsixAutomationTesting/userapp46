@@ -66,6 +66,9 @@ Mobile.tap(findTestObject('Object Repository/mobile/android.widget.TextView - Se
 Mobile.tap(findTestObject('Object Repository/forgot password/android.widget.TextView - Reset your password'), 0)
 
 Mobile.swipe(200, 1800, 200, 900)
+Mobile.swipe(200, 1800, 200, 900)
+Mobile.swipe(200, 1800, 200, 900)
+Mobile.swipe(200, 1800, 200, 900)
 
 Mobile.tap(findTestObject('Object Repository/forgot password/android.widget.TextView - Visit this link to reset your password'), 
     0)

@@ -21,11 +21,11 @@ Mobile.startApplication(GlobalVariable.UserappAPK, true)
 
 Mobile.tap(findTestObject('Object Repository/mobile/android.widget.TextView - Lets Get Started (1)'), 0)
 
-Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Object Repository/mobile/android.widget.ImageView (1)'), 0)
 
-Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('mobile/Search here bar'), 0)
 

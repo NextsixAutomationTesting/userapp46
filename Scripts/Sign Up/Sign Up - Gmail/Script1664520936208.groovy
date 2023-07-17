@@ -30,6 +30,7 @@ Mobile.tap(findTestObject('Object Repository/mobile/android.widget.TextView - Sk
 Mobile.tap(findTestObject('mobile/Profile 2'), 0, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('sign in with gmail/android.widget.TextView - Sign In with Google'), 0, FailureHandling.STOP_ON_FAILURE)
+Mobile.tap(findTestObject('Tap cpntinue as qhru'), 0)
 
 Mobile.tap(findTestObject('sign in with gmail/android.widget.TextView - Calvin Kurt (1)'), 0)
 

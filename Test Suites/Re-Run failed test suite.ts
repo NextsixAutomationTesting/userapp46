@@ -28,14 +28,14 @@
       <guid>9e72c6dd-a9fc-45d7-a9f3-0da41f832ace</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Property Search Details/Search Property by Property Master - Rent</testCaseId>
+      <testCaseId>Test Cases/Property Search/Search Property by Property Master - Rent</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>5f1ff59b-b893-4b69-a171-60cae9dac3d6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Property Search Details/Search Buy Property by Areas</testCaseId>
+      <testCaseId>Test Cases/Property Search/Search Buy Property by Areas</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

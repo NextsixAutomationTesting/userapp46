@@ -39,6 +39,8 @@ Mobile.verifyElementText(findTestObject('sign in with gmail/android.widget.TextV
 'Sign out button\r\n'
 Mobile.tap(findTestObject('sign in with gmail/sign out 1'), 0)
 
+Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+
 Mobile.tap(findTestObject('mobile/Profile 3'), 0)
 
 Mobile.verifyElementText(findTestObject('mobile/android.widget.TextView - Sign In'), 'Sign In')

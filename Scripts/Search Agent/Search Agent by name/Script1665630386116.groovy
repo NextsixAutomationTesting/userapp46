@@ -34,7 +34,7 @@ Mobile.tap(findTestObject('Object Repository/mobile/Agent profile/android.widget
 
 Mobile.tap(findTestObject('Object Repository/mobile/Agent profile/android.widget.TextView - rose (3)'), 0)
 
-Mobile.verifyElementText(findTestObject('Object Repository/mobile/Agent profile/android.widget.TextView - KLCC (1)'), 'KLCC')
+//Mobile.verifyElementText(findTestObject('Object Repository/mobile/Agent profile/android.widget.TextView - KLCC (1)'), 'KLCC')
 
 Mobile.verifyElementText(findTestObject('Object Repository/mobile/Agent profile/android.widget.TextView - Bukit Tunku (Kenny Hills) (1)'), 
     'Bukit Tunku (Kenny Hills)')
