@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-response = WS.sendRequest(findTestObject('Search property by name - Buy'))
+response = WS.sendRequest(findTestObject('Search property by name - Buy'), FailureHandling.CONTINUE_ON_FAILURE)
 
 def slurper = new groovy.json.JsonSlurper()
 
@@ -27,36 +27,36 @@ def name = result.documents[0].name
 
 println(name)
 
-Mobile.startApplication(GlobalVariable.UserappAPK, true)
+Mobile.startApplication(GlobalVariable.UserappAPK, true, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Others and Knowledgebase/Quick walkthrough'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Others and Knowledgebase/Quick walkthrough'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.delay(4, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(4, FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.tap(findTestObject('Object Repository/mobile/Property search by area/android.widget.TextView - Get Agent Nearby'), 
-    0)
+    0, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.tap(findTestObject('Object Repository/mobile/Property search by area/android.widget.TextView - Property'), 0)
+Mobile.tap(findTestObject('Object Repository/mobile/Property search by area/android.widget.TextView - Property'), 0, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.tap(findTestObject('Object Repository/mobile/Property search by area/android.widget.TextView - Rent'), 0)
+Mobile.tap(findTestObject('Object Repository/mobile/Property search by area/android.widget.TextView - Rent'), 0, FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.setText(findTestObject('Object Repository/mobile/Property search by area/android.widget.EditText - Search property here'), 
-    'jalan tiara ', 0)
+    'jalan tiara ', 0, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.tap(findTestObject('mobile/Property search by area/android.widget.TextView - Jalan tiara sendayan - Bungalow - 1'), 
-    0, FailureHandling.STOP_ON_FAILURE)
+    0, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(3, FailureHandling.CONTINUE_ON_FAILURE)
 
 //Mobile.verifyElementText(findTestObject('mobile/Property search by area/android.widget.TextView - Jalan tiara sendayan - Bungalow 22'), 
 //   name)
 Mobile.verifyElementText(findTestObject('Object Repository/mobile/Property search by area/android.widget.TextView - Jalan tiara sendayan (2)'), 
-    name)
+    name, FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.verifyElementText(findTestObject('Object Repository/mobile/Property search by area/android.widget.TextView - 1 Property Nearby'), 
-    '1 Property Nearby')
+    '1 Property Nearby', FailureHandling.CONTINUE_ON_FAILURE)
 

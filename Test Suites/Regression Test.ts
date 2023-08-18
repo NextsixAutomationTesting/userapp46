@@ -105,6 +105,13 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
+      <guid>9ef98098-5c12-4147-ad64-dbe98393174e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Property Search/Home search bar - Buy</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
       <guid>0c970cf4-6dfe-4589-8058-d5038a2e1acb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

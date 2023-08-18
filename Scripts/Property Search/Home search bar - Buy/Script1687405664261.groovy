@@ -63,7 +63,7 @@ for (int i = 0; i < value; i++) {
     WS.verifyElementPropertyValue(response, ('data' + [i]) + '.address.area', area)
 }
 
-Mobile.startApplication('C:\\Users\\user\\Downloads\\newAPK (1).apk', true)
+Mobile.startApplication(GlobalVariable.UserappAPK, true)
 
 WebUI.callTestCase(findTestCase('Others and Knowledgebase/Quick walkthrough'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -80,18 +80,21 @@ Mobile.delay(5)
 Mobile.tap(findTestObject('mobile/Home search bar/android.widget.TextView - Seremban - AreaState11', [('area') : area]), 
     0)
 
-Mobile.tap(findTestObject('Object Repository/mobile/Home search bar/android.widget.TextView -'), 0)
-
+//Mobile.tap(findTestObject('Object Repository/mobile/Home search bar/android.widget.TextView -'), 0)
 Mobile.verifyElementText(findTestObject('mobile/Home search bar/android.widget.TextView - Bungalow labu', [('FIRSTPROP') : FIRSTPROP]), 
     FIRSTPROP)
 
 Mobile.verifyElementText(findTestObject('mobile/Home search bar/android.widget.TextView - RM 4,500,000', [('FIRSTPRICEAFTERFORMAT') : FIRSTPRICEAFTERFORMAT]), 
     FIRSTPRICEAFTERFORMAT)
+
 def max_swipes1 = 25
+
 def swipecount1 = 0
-while (swipecount1<max_swipes1) {
-Mobile.swipe(700, 1770, 40, 1770)
-swipecount1++
+
+while (swipecount1 < max_swipes1) {
+    Mobile.swipe(700, 1770, 40, 1770)
+
+    swipecount1++
 }
 
 Mobile.verifyElementText(findTestObject('Object Repository/mobile/Home search bar/android.widget.TextView - Labu Apartment One 08.02-14.00.33', 
@@ -111,11 +114,13 @@ Mobile.verifyElementText(findTestObject('mobile/Home search bar/android.widget.T
     FIRSTPRICEAFTERFORMAT1)
 
 def max_swipes = 30
-def swipecount = 0
-while (swipecount<max_swipes) {
-Mobile.swipe(489, 1666, 800, 489)
-    swipecount++
 
+def swipecount = 0
+
+while (swipecount < max_swipes) {
+    Mobile.swipe(489, 1666, 800, 489)
+
+    swipecount++
 }
 
 Mobile.verifyElementText(findTestObject('Object Repository/mobile/Home search bar/android.widget.TextView - RM 69,499.00', 

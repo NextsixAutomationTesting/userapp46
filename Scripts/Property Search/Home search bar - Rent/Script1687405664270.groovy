@@ -19,9 +19,10 @@ import internal.GlobalVariable as GlobalVariable
 
 // Mandatory to match state and area to call api properly
 def area = 'Bandar Sri Sendayan'
+
 def state = 'Negeri Sembilan'
 
-response = WS.sendRequest(findTestObject('homesearchbar', [('area') : area]))
+response = WS.sendRequest(findTestObject('homesearchbar', [('area') : area]), FailureHandling.STOP_ON_FAILURE)
 
 def slurper = new groovy.json.JsonSlurper()
 
@@ -63,83 +64,82 @@ for (int i = 0; i < value; i++) {
     WS.verifyElementPropertyValue(response, ('data' + [i]) + '.address.area', area)
 }
 
-Mobile.startApplication('C:\\Users\\user\\Downloads\\newAPK (1).apk', true)
+Mobile.startApplication(GlobalVariable.UserappAPK, true, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Others and Knowledgebase/Quick walkthrough'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Object Repository/mobile/Home search bar/android.widget.TextView - Buy'), 0)
+Mobile.tap(findTestObject('Object Repository/mobile/Home search bar/android.widget.TextView - Buy'), 0, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Object Repository/mobile/Home search bar/android.widget.TextView - Rent'), 0)
+Mobile.tap(findTestObject('Object Repository/mobile/Home search bar/android.widget.TextView - Rent'), 0, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Object Repository/mobile/Home search bar/android.view.ViewGroup'), 0)
+Mobile.tap(findTestObject('Object Repository/mobile/Home search bar/android.view.ViewGroup'), 0, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.setText(findTestObject('Object Repository/mobile/Home search bar/android.widget.EditText - Search locationproperty here'), 
-    area, 0)
+    area, 0, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.delay(5)
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('mobile/Home search bar/android.widget.TextView - Seremban - AreaState11', [('area') : area]), 
-    0)
+    0, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Object Repository/mobile/Home search bar/android.widget.TextView -'), 0)
-
+//Mobile.tap(findTestObject('Object Repository/mobile/Home search bar/android.widget.TextView -'), 0)
 Mobile.verifyElementText(findTestObject('mobile/Home search bar/android.widget.TextView - Bungalow labu', [('FIRSTPROP') : FIRSTPROP]), 
-    FIRSTPROP)
+    FIRSTPROP, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.verifyElementText(findTestObject('mobile/Home search bar/android.widget.TextView - RM 4,500,000', [('FIRSTPRICEAFTERFORMAT') : FIRSTPRICEAFTERFORMAT]), 
-    FIRSTPRICEAFTERFORMAT)
+    FIRSTPRICEAFTERFORMAT, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.swipe(400, 1770, 40, 1770)
+Mobile.swipe(400, 1770, 40, 1770, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.swipe(400, 1770, 40, 1770)
+Mobile.swipe(400, 1770, 40, 1770, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.swipe(400, 1770, 40, 1770)
+Mobile.swipe(400, 1770, 40, 1770, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.swipe(400, 1770, 40, 1770)
+Mobile.swipe(400, 1770, 40, 1770, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.swipe(400, 1770, 40, 1770)
+Mobile.swipe(400, 1770, 40, 1770, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.swipe(400, 1770, 40, 1770)
+Mobile.swipe(400, 1770, 40, 1770, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.swipe(400, 1770, 40, 1770)
+Mobile.swipe(400, 1770, 40, 1770, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.swipe(400, 1770, 40, 1770)
+Mobile.swipe(400, 1770, 40, 1770, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.verifyElementText(findTestObject('Object Repository/mobile/Home search bar/android.widget.TextView - Labu Apartment One 08.02-14.00.33', 
-        [('LASTPROP') : LASTPROP]), LASTPROP)
+        [('LASTPROP') : LASTPROP]), LASTPROP, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.verifyElementText(findTestObject('mobile/Home search bar/android.widget.TextView - RM 69,499', [('LASTPRICEAFTERFORMAT') : LASTPRICEAFTERFORMAT]), 
-    LASTPRICEAFTERFORMAT)
+    LASTPRICEAFTERFORMAT, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.swipe(489, 1666, 800, 489)
+Mobile.swipe(489, 1666, 800, 489, FailureHandling.STOP_ON_FAILURE)
 
 //Mobile.verifyElementText(findTestObject('mobile/Home search bar/android.widget.TextView - RM 4,500,000.00', [('LASTPRICEAFTERFORMAT1') : LASTPRICEAFTERFORMAT1]), 
 //    LASTPRICEAFTERFORMAT1)
 Mobile.verifyElementText(findTestObject('Object Repository/mobile/Home search bar/android.widget.TextView - Bungalow labu (1)', 
-        [('FIRSTPROP') : FIRSTPROP]), FIRSTPROP)
+        [('FIRSTPROP') : FIRSTPROP]), FIRSTPROP, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.verifyElementText(findTestObject('mobile/Home search bar/android.widget.TextView - RM 4,500,000', [('FIRSTPRICEAFTERFORMAT') : FIRSTPRICEAFTERFORMAT1]), 
-    FIRSTPRICEAFTERFORMAT1)
+    FIRSTPRICEAFTERFORMAT1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.swipe(489, 1666, 800, 489)
+Mobile.swipe(489, 1666, 800, 489, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.swipe(489, 1666, 800, 489)
+Mobile.swipe(489, 1666, 800, 489, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.swipe(489, 1666, 800, 489)
+Mobile.swipe(489, 1666, 800, 489, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.swipe(489, 1666, 800, 489)
+Mobile.swipe(489, 1666, 800, 489, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.swipe(489, 1666, 800, 489)
+Mobile.swipe(489, 1666, 800, 489, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.swipe(489, 1666, 800, 489)
+Mobile.swipe(489, 1666, 800, 489, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.swipe(489, 1666, 800, 489)
+Mobile.swipe(489, 1666, 800, 489, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.verifyElementText(findTestObject('Object Repository/mobile/Home search bar/android.widget.TextView - RM 69,499.00', 
-        [('LASTPRICEAFTERFORMAT1') : LASTPRICEAFTERFORMAT1]), LASTPRICEAFTERFORMAT1)
+        [('LASTPRICEAFTERFORMAT1') : LASTPRICEAFTERFORMAT1]), LASTPRICEAFTERFORMAT1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.verifyElementText(findTestObject('Object Repository/mobile/Home search bar/android.widget.TextView - Labu Apartment One 08.02-14.00.33 (1)', 
-        [('LASTPROP') : LASTPROP]), LASTPROP)
+        [('LASTPROP') : LASTPROP]), LASTPROP, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.closeApplication()
+Mobile.closeApplication(FailureHandling.STOP_ON_FAILURE)
 

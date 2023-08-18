@@ -30,8 +30,8 @@
       <name>propertyname</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
-      <initValue>'C:\\Users\\user\\Downloads\\newAPK (1).apk'</initValue>
+      <description>Use this default directory</description>
+      <initValue>'C:\\Users\\user\\Downloads\\userSDK46v3.apk'</initValue>
       <name>UserappAPK</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -46,7 +46,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'C:\\Users\\user\\Downloads\\newAPK (1).apk'</initValue>
+      <initValue>'C:\\Users\\user\\Downloads\\userSDK46v3.apk'</initValue>
       <name>userapk46</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'C:\\Users\\user\\Downloads\\newAPK (1).apk'</initValue>
+      <name>userapk44</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

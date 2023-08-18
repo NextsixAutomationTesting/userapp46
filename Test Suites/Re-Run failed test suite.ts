@@ -12,30 +12,23 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>3991605c-b1ee-4b43-b97e-cd71dc3742c6</testSuiteGuid>
    <testCaseLink>
-      <guid>8850492b-f4a5-42a8-a166-2c3045845933</guid>
+      <guid>5514e280-417c-44a5-9f83-3c243d667975</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Forgot Password - Public</testCaseId>
+      <testCaseId>Test Cases/Property Search/Home search bar - Buy</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1bc23ea3-bb2f-4c3f-bbd3-a93614b50d2c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Property Search/Home search bar - Rent</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>f271ac48-3e5d-488d-832e-883d27165186</variableId>
+         <variableId>6771f743-6c11-4441-8561-d3395245b05a</variableId>
       </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>9e72c6dd-a9fc-45d7-a9f3-0da41f832ace</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Property Search/Search Property by Property Master - Rent</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>5f1ff59b-b893-4b69-a171-60cae9dac3d6</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Property Search/Search Buy Property by Areas</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

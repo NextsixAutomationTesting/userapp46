@@ -30,8 +30,14 @@ Mobile.tap(findTestObject('Object Repository/mobile/android.widget.TextView - Sk
 Mobile.tap(findTestObject('mobile/Profile 2'), 0, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('sign in with gmail/android.widget.TextView - Sign In with Google'), 0, FailureHandling.STOP_ON_FAILURE)
-Mobile.tap(findTestObject('Tap cpntinue as qhru'), 0)
+checktextexist = Mobile.verifyElementText(findTestObject('Tap cpntinue as qhru'), 'Continue as Qhru',FailureHandling.CONTINUE_ON_FAILURE)
 
+if(checktextexist) {
+	
+	Mobile.tap(findTestObject('Tap cpntinue as qhru'), 'Continue as Qhru', FailureHandling.CONTINUE_ON_FAILURE)
+	
+}
+else
 Mobile.tap(findTestObject('sign in with gmail/android.widget.TextView - Calvin Kurt (1)'), 0)
 
 /*def status = */
